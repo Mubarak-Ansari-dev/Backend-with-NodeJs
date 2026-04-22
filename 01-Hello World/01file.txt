@@ -1,0 +1,23 @@
+// covering
+1. What is NodeJs
+2. what is module ?
+3. How modular program done in Node Js?
+
+
+Answers :-
+1.  Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+   It allows developers to run JavaScript code outside of a web browser,
+    enabling server-side scripting and the development of scalable network applications. 
+    Node.js uses an event-driven, non-blocking I/O model, making it efficient and suitable for building real-time applications, APIs, and microservices. 
+    It has a vast ecosystem of libraries and frameworks available through npm (Node Package Manager), making it a popular choice for web development and other server-side applications. 
+
+
+2.  So Modules are basically reusable pieces of code that can be imported and used in other files.
+    They help in organizing code and making it more modular.
+    In Node.js, we can create our own modules and export them using module.exports or exports.
+    We can also use built-in modules provided by Node.js to perform various tasks.
+
+3. Node Js me modular programming ke liye hum module.exports ka use karte hain.
+   Hum apne functions, variables, objects ko module.exports ke through export kar sakte hain 
+   aur phir unhe require karke dusre files me use kar sakte hain.
+   Isse hum apne code ko organize kar sakte hain aur reusability badha sakte hain.     
