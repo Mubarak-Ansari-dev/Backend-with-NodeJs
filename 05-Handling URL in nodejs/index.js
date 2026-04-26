@@ -1,10 +1,14 @@
 const http = require("http"); // built in module to create server in nodejs
 const fs = require("fs"); // built in module to handle files in nodejs  
+const url = require("url"); // built in module to handle url in nodejs
+
 
 const myServer = http.createServer((req, res) =>{
     const log = `${Date.now()}: ${req.url} New Req Received\n`;
+
+    const myUrl = url.parse(req.url);
     fs.appendFile("log.txt", log, (err, data) =>{
-        switch(req.url){
+        switch(myUrl.pathname){
             case "/":
             res.end("Home Page");
             break;
