@@ -1,0 +1,17 @@
+// version
+
+//
+"^5.2.1"
+
+1st part -> 5
+2nd part -> 2
+3rd part -> 1
+
+// 3rd part (Last part) -> Minor Fixes(Optional)
+
+// 2nd Part - Recommended Bug Fix(Security Fix)
+    2
+// 3rd Part - Major Release
+   5  
+
+   // ^ Carret Symbol - ^5.2.1 - lock the major release (^5), u can update iske baad ke number
