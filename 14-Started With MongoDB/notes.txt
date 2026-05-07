@@ -1,0 +1,7 @@
+// Getting Started with mongodb
+
+-- No=SQL Document Based Datebase
+-- strong support for Aggregation pipes
+-- Works on BSON format
+-- Best for Node applications.
+
